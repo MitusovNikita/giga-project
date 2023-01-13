@@ -7,3 +7,21 @@ test:
 frontend:
     path: /frontend
     controller: App\Controller\FrontendController::index
+vue:
+    path: /vue
+    controller: App\Controller\FrontendController::vue
+select:
+    path: /select
+    controller: App\Controller\DoctrineController::select
+trt:
+    path: /trt
+    controller: App\Controller\OopController::trt
+redis:
+    path: /redis
+    controller: App\Controller\RedisController::index
+cookies:
+    path: /cookies
+    controller: App\Controller\ResourcesController::cookies
+session:
+    path: /session
+    controller: App\Controller\ResourcesController::session
