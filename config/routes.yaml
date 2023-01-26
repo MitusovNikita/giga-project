@@ -13,6 +13,15 @@ vue:
 select:
     path: /select
     controller: App\Controller\DoctrineController::select
+update:
+    path: /update
+    controller: App\Controller\DoctrineController::update
+delete:
+    path: /delete
+    controller: App\Controller\DoctrineController::delete
+insert:
+    path: /insert
+    controller: App\Controller\DoctrineController::insert
 trt:
     path: /trt
     controller: App\Controller\OopController::trt
@@ -25,3 +34,12 @@ cookies:
 session:
     path: /session
     controller: App\Controller\ResourcesController::session
+currency-api:
+    path: /currency
+    controller: App\Controller\CurrencyController::index
+strict:
+    path: /strict
+    controller: App\Controller\StrictController::index
+magic:
+    path: /magic
+    controller: App\Controller\MagicController::index
