@@ -33,7 +33,7 @@ cookies:
     controller: App\Controller\ResourcesController::cookies
 session:
     path: /session
-    controller: App\Controller\ResourcesController::session
+    controller: App\Controller\ResourcesController::session1
 currency-api:
     path: /currency
     controller: App\Controller\CurrencyController::index
