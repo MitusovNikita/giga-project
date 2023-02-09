@@ -41,5 +41,5 @@ strict:
     path: /strict
     controller: App\Controller\StrictController::index
 magic:
-    path: /magic
+    path: /magic1
     controller: App\Controller\MagicController::index
